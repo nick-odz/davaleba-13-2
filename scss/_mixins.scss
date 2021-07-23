@@ -1,0 +1,6 @@
+@mixin d-flex($display, $justfy,$aling) {
+    display: $display;
+    justify-content: $justfy;
+    align-items: $aling;
+    
+}

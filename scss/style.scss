@@ -1,0 +1,240 @@
+body{
+    background-color: black;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        width: 1750px;
+        margin: 0 auto;
+        .logo{
+            background-color: $color01;
+            width: 243px;
+            height: 106px;
+            border-radius: 0 0 69px 60px;
+            @include d-flex(flex, center, center);
+            .logo1{
+                color: white;
+                font-size: 20px;
+            }
+            .span{
+                font-size: 24px;
+            }
+        }
+        .ul-text{
+            display: flex;
+            width: 450px;
+            justify-content: space-between;
+            padding-top: 35px;
+            .li-text{
+                color: #D1E0FB;
+            }
+          
+        }
+        .btn{
+            margin-top: 25px;
+            width: 450px;
+            height: 60px;
+            background-color: $color01;
+            border-radius: 20px;
+            .btn-text{
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+    .section{
+        .container{
+            width: 1600px;
+            margin: 0 auto;
+            display: flex;
+            .left-block{
+                width: 550px;
+                margin-top: 150px;
+                .lb-text{
+                    color:$color01;
+                    font-size: 16px;
+                }
+                h2{
+                    color: white;
+                    font-size: 40px;
+                    margin-top: 15px;
+                }
+                p{
+                    color: white;
+                    width: 440px;
+                    margin-top: $size01;
+                    font-size: $size01;
+                }
+                .box-wrapper{
+                    display: flex;
+                    margin-top: $size01;
+                    
+                    .box1{
+                        
+                        width: 167px;
+                        height: 48px;
+                        background-color: $color01;
+                        border-radius: 15px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .span2{
+                            color: white;
+                            font-size: 18px;
+                        }
+                    }
+                    .box2{
+                        width: 167px;
+                        height: 48px;
+                        background-color: $color01;
+                        border-radius: 15px;
+                        @include d-flex(flex, center, center);
+                        margin-left: $size01;
+                    }
+
+                }
+                
+            }
+            .right-block{
+                .block-container{
+                    .flex-block1{
+                        width: 811px;
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 150px;
+                        
+                        .r-block1{
+                            background-color: #171717;
+                            width: 255px;
+                            height: 284px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                        
+                            .h4-box{
+                                color: white;
+                                margin-top: 26px;
+                                font-size: $size01;
+                            }
+                            .p-box{
+                                color: white;
+                                width: 150px;
+                                margin-top: 26px;
+                            }
+                        }
+                        .r-block2{
+                            background-color: #171717;
+                            width: 255px;
+                            height: 284px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            .h4-box{
+                                color: white;
+                                margin-top: 26px;
+                                font-size: $size01;
+                            }
+                            .p-box{
+                                color: white;
+                                width: 150px;
+                                margin-top: 26px;
+                            }
+                            
+                        }
+                        .r-block3{
+                            background-color: #171717;
+                            width: 255px;
+                            height: 284px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            .h4-box{
+                                color: white;
+                                margin-top: 26px;
+                                font-size: $size01;
+                            }
+                            .p-box{
+                                color: white;
+                                width: 150px;
+                                margin-top: 26px;
+                            }
+
+                        }
+                    }
+                    .flex-block2{
+                        width: 811px;
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: $size01;
+                        .r-block1{
+                            background-color: #171717;
+                            width: 255px;
+                            height: 284px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            .h4-box{
+                                color: white;
+                                margin-top: 26px;
+                                font-size: $size01;
+                            }
+                            .p-box{
+                                color: white;
+                                width: 150px;
+                                margin-top: 26px;
+                            }
+                            
+                        }
+                        .r-block2{
+                            background-color: #171717;
+                            width: 255px;
+                            height: 284px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            .h4-box{
+                                color: white;
+                                margin-top: 26px;
+                                font-size:$size01;
+                            }
+                            .p-box{
+                                color: white;
+                                width: 150px;
+                                margin-top: 26px;
+                            }
+                            
+                        }
+                        .r-block3{
+                            background-color: #171717;
+                            width: 255px;
+                            height: 284px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            .h4-box{
+                                color: white;
+                                margin-top: 26px;
+                                font-size:$size01;
+                            }
+                            .p-box{
+                                color: white;
+                                width: 150px;
+                                margin-top: 26px;
+                            }
+
+                        }
+                        
+                        
+                    }
+                }
+            }
+            
+         }
+           
+    }
+}
